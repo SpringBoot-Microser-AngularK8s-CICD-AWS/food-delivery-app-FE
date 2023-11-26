@@ -7,6 +7,8 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FoodCatalogueModule } from './food-catalogue/food-catalogue.module';
+import { OrderSummaryModule } from './order-summary/order-summary.module';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,10 @@ import { AppComponent } from './app.component';
     AppRoutingModule,
     HeaderModule,
     RestaurantListingModule,
-    HttpClientModule
+    HttpClientModule,
+    FoodCatalogueModule,
+    OrderSummaryModule
+
 
   ],
   providers: [],
