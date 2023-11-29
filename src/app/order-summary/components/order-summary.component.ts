@@ -19,7 +19,7 @@ export class OrderSummaryComponent {
   
   ngOnInit() {
     const data = this.route.snapshot.queryParams['data'];
-    this.obj = JSON.parse(data);
+    this.obj = JSON.parse(data);//in the data we have food item list and restaurant details
     this.obj.userId=1;
     this.orderSummary = this.obj;
 
